@@ -63,9 +63,9 @@ class _HomeViewState extends State<HomeView> {
                               dbHelper!.update(
                                 NotesModel(
                                     id: snapShot.data![index].id!,
-                                    title: "Shivanshu Pal",
+                                    title: "SqlLite",
                                     age: Random().nextInt(60) + 18,
-                                    description: "I'm Good Fuk",
+                                    description: "I'm Good",
                                     email: 'admin@yahoo.com'),
                               );
                               setState(() {
