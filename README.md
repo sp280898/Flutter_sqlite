@@ -1,4 +1,4 @@
-# SqLite
+# SqlLite
 
 A new Flutter project.
 
